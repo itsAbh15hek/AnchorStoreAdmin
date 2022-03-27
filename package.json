@@ -20,7 +20,8 @@
     "recharts": "^2.0.9",
     "redux-persist": "^6.0.0",
     "timeago.js": "^4.0.2",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "yarn": "^1.22.18"
   },
   "scripts": {
     "start": "react-scripts start",
