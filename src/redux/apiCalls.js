@@ -52,6 +52,7 @@ export const updateProduct = async (dispatch, products, updatedProduct) => {
     const updatedProducts = products.map((p) =>
       p._id === updatedProduct._id ? updatedProduct : p
     );
+    console.log(products, updatedProduct, updatedProducts);
     dispatch(updateProductSuccess(updatedProducts));
   } catch (error) {
     console.log(error.message);

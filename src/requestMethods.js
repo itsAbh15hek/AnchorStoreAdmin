@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL = "https://anchor-store.herokuapp.com/api/";
+const BASE_URL = "https://fair-cod-pea-coat.cyclic.cloud/api/";
 const TOKEN = localStorage.getItem("persist:root")
   ? JSON.parse(JSON.parse(localStorage.getItem("persist:root"))?.user)
       ?.currentUser?.accessToken
